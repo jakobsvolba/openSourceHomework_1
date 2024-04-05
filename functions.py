@@ -13,8 +13,10 @@ def calc_capacity_factor(energy, power):
 
     Parameters
     ----------
+    
     energy : 
         yearly energy yield in kWh from a power plant
+    
     power : 
         nominal power of power plant in kW
 
@@ -33,8 +35,10 @@ def calc_fullloadhours(energy, power):
 
     Parameters
     ----------
+    
     energy : 
         yearly energy yield in kWh from a power plant
+    
     power : 
         nominal power of power plant in kW
 
