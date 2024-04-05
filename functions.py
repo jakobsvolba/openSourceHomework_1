@@ -8,7 +8,7 @@ Created on Fri Apr  5 10:20:01 2024
 """
 
 def calc_capacity_factor(energy, power):
-    '''
+    """
     calculates the capacity factor of a powerplant with given parameters
 
     Parameters
@@ -22,12 +22,13 @@ def calc_capacity_factor(energy, power):
     -------
     cf in %
 
-    '''
+    """
+    
     cf = (energy / (power * 7860))*100
     return cf
 
 def calc_fullloadhours(energy, power):
-    '''
+    """
     calculates the fulloadhours of a powerplant with given parameters
 
     Parameters
@@ -40,7 +41,7 @@ def calc_fullloadhours(energy, power):
     Returns
     -------
     fhours in hours
-    '''
+    """
+    
     fhours = energy / power
     return fhours
-    

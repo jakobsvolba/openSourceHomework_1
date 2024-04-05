@@ -22,5 +22,3 @@ fhours = functions.calc_fullloadhours(energy, power)
 
 print(f"The capacity factor of the power plant is {cf} %")
 print(f"The fullloadhours of the power plant is {fhours} hours")
-
-

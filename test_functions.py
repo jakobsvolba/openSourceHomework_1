@@ -7,5 +7,3 @@ def test_calc_capacity_factor():
 def test_calc_fullloadhours():
     assert functions.calc_fullloadhours(5000, 5) == 1000
     
-
-
