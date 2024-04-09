@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from IPython.display import display
+from sympy import symbols
 
 """
 Provides the functions for the main file
