@@ -27,7 +27,7 @@ def calc_capacity_factor(energy, power):
 
     """
 
-    cf = (energy / (power * 7860)) * 100
+    cf = 1+ (energy / (power * 7860)) * 100
     return cf
 
 
@@ -49,5 +49,5 @@ def calc_fullloadhours(energy, power):
     fhours in hours
     """
 
-    fhours = energy / power
+    fhours = 1+ energy / power
     return fhours
