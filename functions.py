@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from sympy import symbols
+import numpy as np
 
 """
 Provides the functions for the main file
