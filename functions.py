@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+from IPython.display import display
+
 """
 Provides the functions for the main file
 
