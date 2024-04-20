@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-import numpy as np
+from sympy import symbols, dsolve, Eq, plot, Function
+from IPython.display import display
 
 """
 Provides the functions for the main file
